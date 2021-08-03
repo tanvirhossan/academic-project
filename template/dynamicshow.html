@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	
+	{%load staticfiles%}
+	<link rel="stylesheet" type="text/css" href="{% static 'dynamicshow.css' %}" media="all" />
+	<title>Dynamic | show all according to search</title>
+</head>
+<body >
+	
+	<div class="headerr">
+		
+		<div class="menubar">
+			
+			<ul>
+				<li><a href="{% url 'travel'%}">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a href="">Link Item</a></li>
+			</ul>
+		
+		</div>
+		
+	</div>
+	
+	{% for f in detailsss %}
+	
+	<div class="contentpart">
+	
+		<div class="maincontent">
+		
+			<div class="mcleft">
+				
+				<div class="mltop">
+				
+				<img src="{{f.pimage.url}}" alt="image" />
+					
+				</div>
+				<div class="mldown">
+					<h2 style="font-weight:bold;color:orange;font-family:cambria;font-style:italic;">{{f.imagefigname}}.......</h2>
+					<hr style="background:gray;padding:1px 0px;width:350px;border:none;" />
+					<h5 style="width:97%">......  {{f.shortdiscription}}...</h5>
+				</div>
+			
+			</div>
+			<div class="mcright">
+				<div class="mctop">
+					<h3 style="font-size:25px;padding-left:20px;padding-top:20px;color:white;"><strong>Details and Pathway to visit this beautiful place...</strong></h3>
+					<hr style="margin-left:20px;background:gray;padding:1px 0px;width:470px;border:none;" />
+					
+					<div class="details">
+						
+						<h2 style="font-size:18px;padding-left:25px;color:orange;font-family:tahoma; font-style:italic;background:black;padding:5px; 3px;margin-top:5px;">.....About {{f.uname}}</h2>
+							<div class="discription">
+								
+								<h4 style="padding-left:20px;padding-right:10px;color:white;">{{f.placediscription}}</h4>
+							
+							</div>
+							
+							<h2 style="font-size:18px;padding-left:25px;color:orange;font-family:tahoma; font-style:italic;background:black;padding:5px; 3px;margin-top:10px;">Way to go....</h2>.
+							<div class="discriptionofway">
+								
+								<h4 style="padding-left:20px;padding-right:10px;color:white;">{{f.placeway}}</h4>
+							
+							</div>
+							
+					</div>
+					
+					
+				</div>
+				<div class="mcdown">
+				
+				</div>
+			</div>
+		
+		</div>
+		
+	</div>
+	{% endfor %}
+	
+	
+	
+	
+	<div class="footer">
+	
+		
+		<h3 style="color:orange;text-align:center;padding-top:20px;">copyright reserved all content created by tanvir hossain</h3>
+	
+	
+	</div>
+	
+	
+</body>
+</html>

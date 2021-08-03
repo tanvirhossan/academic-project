@@ -1,0 +1,29 @@
+.bdy
+{
+	height:580px;
+	width:100%;
+	background:rgba(7, 8, 23, 0.7);
+	margin-top:60px;
+
+}
+.hed
+{
+	height:10%;
+	width:100%;
+	background-color:gray;
+	text-align:center;
+	padding:10px;
+}
+.content
+{
+	height:70%;
+	width:100%;
+	background-color:lightgreen;
+}
+.name 
+{
+	text-align:center;
+	padding:40px;
+}
+
+	

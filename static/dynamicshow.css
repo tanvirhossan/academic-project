@@ -1,0 +1,140 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.headerr
+{
+	height:100px;
+	width:100%;
+	background:rgba(7, 8, 23, 0.7);
+}
+body
+{
+	background:url("img/4500761-summer-beach-wallpapers.jpg")no-repeat;
+	background-attachment:fixed;
+	height:100vh;
+}
+.menubar
+{
+	height:100%;
+	width:60%;
+	margin:0 auto;
+	
+}
+.menubar ul{
+	
+}
+.menubar ul li
+{
+	list-style:none;
+	float:left;
+	overflow:hidden;
+	margin:5px 10px;
+	padding-top:25px;
+}
+.menubar ul li a
+{
+	text-decoration:none;
+	font-size:25px;
+	font-weight:bold;
+	font-family:cambria;
+	color:orange;
+	margin-right:25px;
+}
+.menubar ul li a:hover
+{
+	color:aqua;
+	text-decoration:underline;
+	
+}
+.contentpart
+{
+	height:500px;
+	width:100%;
+	background:rgba(7, 8, 23, 0.3);
+	padding-bottom:30px;
+  
+}
+.maincontent
+{
+	height:100%;
+	width:90%;
+	margin:0 auto;
+}
+.mcleft
+{
+	height:100%;
+	width:45%;
+	float:left;
+	overflow:hidden;
+	margin-right:2%;
+	
+}
+.mcright
+{
+	height:100%;
+	width:53%;
+	overflow:hidden;
+	
+}
+.mctop
+{
+	height:15%;
+	width:100%;
+}
+.mcdown
+{
+	height:83%;
+	width:100%;
+	
+	margin-top:-15px;
+}
+.mltop
+{
+	height:85%;
+	width:100%;
+	padding-top:30px;
+}
+.mldown
+{
+	height:15%;
+	width:100%;
+	background:rgba(7, 8, 23, 0.0);
+}
+.mltop img{
+	height:100%;
+	width:100%;
+	border:2px solid black;
+	border-radius:10px;
+}
+.footer
+{
+	
+	height:100px;
+	width:100%;
+	background:black;
+}
+.details
+{
+	height:95%;
+	width:96%;
+	margin:0 auto;
+}
+.discription
+{
+	height:220px;
+	width:100%;
+	margin:0 auto;
+	overflow:scroll;
+	background:rgba(7,8,23,0.5);
+}
+.discriptionofway
+{
+	height:150px;
+	width:100%;
+	margin:0 auto;
+	overflow:scroll;
+	background:rgba(7,8,23,0.7);
+	margin-top:-20px;
+}

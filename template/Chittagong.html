@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Details | about city</title>
+	{%load staticfiles%}
+	
+	<link rel="stylesheet" href="{% static 'travl.css'%}" />
+	<link rel="stylesheet" href="{% static 'dynamic1.css'%}" />
+	
+	
+	<style type="text/css">
+			.name h3:hover
+
+		input:hover
+		{
+			color:red;
+			font-size:25px;
+			cursor:pointer;
+			border:3px solid black;
+			
+		}
+			input
+		{
+		font-size:20px;
+		}
+	
+	</style>
+	
+</head>
+<body>
+<div class="bim">
+<div class="fixed">
+   <img class="logo-img" src="{% static 'img/visitbanla.png'%}" alt="Logo">     
+          <div class="navbar">
+  <a href="{% url 'travel'%}">Home</a>
+  <a href="#news">Contact</a>
+  <a href="About">About</a>
+  </div>  
+  </div> 
+  <div class="bdy">
+  <div class="hed">
+    <h1>Chittagong</h1>
+  </div>
+  <div class="content">
+<div class="name">
+
+       <form action="/showitem/" method="post">
+		{%csrf_token%}
+				<input type="submit" name="name" style="background:none;border:none;" value="Alutila Cave" />
+		
+	  </form>
+
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+				<input type="submit" name="name" style="background:none;border:none;" value="Sajek valley" />
+		
+	  </form>
+
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+				<input type="submit" name="name" style="background:none;border:none;" value="Nilgiri" />
+		
+	  </form>
+	  
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+				<input type="submit" name="name" style="background:none;border:none;" value="Chimbuk Hill" />
+		
+	  </form>
+
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+				<input type="submit" name="name" style="background:none;border:none;" value="Inani Sea Beach" />
+		
+	  </form>
+
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+				<input type="submit" name="name" style="background:none;border:none;" value="Saint Martin " />
+		
+	  </form>
+
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+				<input type="submit" name="name" style="background:none;border:none;" value="Baklai Waterfall" />
+		
+	  </form>
+
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+				<input type="submit" name="name" style="background:none;border:none;" value="ChingriJhiri Waterfall" />
+		
+	  </form>
+
+	   <form action="/showitem/" method="post">
+		{%csrf_token%}
+				<input type="submit" name="name" style="background:none;border:none;" value="Nafakhum Waterfall" />
+		
+	  </form>
+
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+				<input type="submit" name="name" style="background:none;border:none;" value="Rijuk Waterfall" />
+		
+	  </form>
+
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+				<input type="submit" name="name" style="background:none;border:none;" value="Jadipai Waterfall" />
+		
+	  </form>
+
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+				<input type="submit" name="name" style="background:none;border:none;" value="Foy’s Lake" />
+		
+	  </form>
+
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+				<input type="submit" name="name" style="background:none;border:none;" value="Boga Lake" />		
+	  </form>
+
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+				<input type="submit" name="name" style="background:none;border:none;" value="Kaptai Lake" />
+	  </form>
+	  </a>
+
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+				<input type="submit" name="name" style="background:none;border:none;" value="Nijhum deep" />	
+	  </form>
+
+	  
+	
+	  
+	 
+  </div>
+  </div>
+  </div>
+  
+  
+  <div class="footer">
+	
+  
+  </div>
+  
+</body>
+</html>

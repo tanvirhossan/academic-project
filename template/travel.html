@@ -1,0 +1,344 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Welcome | tourist guide </title>
+	
+	{%load staticfiles%}
+	
+	<link rel="stylesheet" href="{% static 'travl.css' %}" />
+</head>
+
+
+<body >
+<div class="bim">
+<div class="fixed">
+   <img class="logo-img" src="{% static 'img/visitbanla.png' %}" alt="Logo">     
+          <div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">Contact</a>
+  <a href="About">About</a>
+  </div> 
+          <div class="navbar1">
+      <div class="dropdown1">
+    <button class="dropbtn1">HILL 
+    </button>
+    <div class="dropdown-content1">
+	<a href="#">
+       <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Alutila Cave" />	
+	  </form>
+	  	</a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+	<input type="submit" style="background:none;border:none;" name="name" value="Sajek valley" />
+	  </form>
+	  	  </a>
+       <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+    <input type="submit" style="background:none;border:none;" name="name" value="Nilgiri" />
+		
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="keokaradang" />
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Chimbuk Hill" />	
+	  </form>
+	  </a>  
+    </div>
+	</div>
+	<div class="dropdown2">
+    <button class="dropbtn2">SEA-BEACH 
+    </button>
+    <div class="dropdown-content2">
+	 <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Patenga Sea Beach" />	
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Kuakata Sea Beach" />	
+	  </form>
+	  </a>
+	    <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Inani Sea Beach" />		
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Saint Martin" />	
+	  </form>
+	  </a>
+	   
+    </div>
+	</div>
+	<div class="dropdown3">
+    <button class="dropbtn3">WATERFALL    
+    </button>
+    <div class="dropdown-content3">
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Baklai Waterfall" />	
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="ChingriJhiri Waterfall" />	
+	  </form>
+	  </a>
+	   <a href="#">
+	   <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Shuvolong Waterfall" />
+	  </form>
+	   </a>
+       <a href="#">
+	   <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Nafakhum Waterfall" />	
+	  </form>
+	   </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Richhang Waterfall" />	
+	  </form>
+	  </a>
+	    <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Rijuk Waterfall" />
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Jadipai Waterfall" />
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Madhabknda Waterfall" />
+	  </form>
+    </a>
+    </div>
+	</div>
+	<div class="dropdown4">
+    <button class="dropbtn4">LAKE
+    </button>
+    <div class="dropdown-content4">
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Foy's Lake" />
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Boga Lake" />
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Kaptai Lake" />
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Lalakhal" />
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Ramsagar" />
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Tanguar Haor" />	
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Hakaluki Haor " />	
+	  </form>
+	  </a>
+    </div> 
+	</div>
+	<div class="dropdown5">
+    <button class="dropbtn5">FOREST
+    </button>
+    <div class="dropdown-content5">
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Sundarban" />
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Ratargul Swamp Forest " />	
+	  </form>
+	  </a>
+    </div> 
+	</div>
+	<div class="dropdown6">
+    <button class="dropbtn6">HISTORICAL
+    </button>
+    <div class="dropdown-content6">
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Jatiyo sriti soudho" />
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Shaheed Minar" />	
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Lalbagh" />	
+	  </form>
+	  </a>
+		  <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Ahsan Manzil" />
+	  </form>
+	  </a>
+	    <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Kantajir Mandeer" />
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Sompura Mahabihar" />
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Mahasthanghar" />	
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Choto Shona Mosque" />	
+	  </form>
+	  </a>
+    </div>
+	</div>
+	<div class="dropdown7">
+    <button class="dropbtn7">ISLAND
+    </button>
+    <div class="dropdown-content7">
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Moheshkhali Island" />
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Saint Martin" />	
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Nijhum deep" />	
+	  </form>
+	  </a>
+    </div>
+	</div>
+	<div class="dropdown8">
+    <button class="dropbtn8">PARK
+    </button>
+	 <div class="dropdown-content8">
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Safari Park" />
+	  </form>
+	    <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Lawachara" />	
+	  </form>
+	  </a>
+	   <a href="#">
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+		<input type="submit" style="background:none;border:none;" name="name" value="Kaptai National Park" />	
+	  </form>
+	  </a>
+    </div>
+	</div>
+  </div>  
+  </div> 
+	<div class="welcome">
+	<h2 class="p1">Welcome To BANGLADESH</h2>
+	</div>
+	<div class="src">
+	<form action="/searchItem/" method="post">
+		{%csrf_token%}
+		<input class="inp" type="text" name="searcitem" /><span><input class="submit"   type="submit" value="search" /></span>
+	</form>
+		</div>
+		</div>
+<div class="pso">
+<ul class="dvi">
+                <li><a  href="{% url 'Dhaka' %}">Dhaka</a></li>
+                <li><a  href="{% url 'Chittagong' %}">Chittagong</a></li>
+                <li><a href="{% url 'Rajshahi' %}">Rajshahi</a></li>
+				<li><a href="{% url 'Rangpur' %}">Rangpur</a></li>
+				<li><a  href="{% url 'Khulna' %}">Khulna</a></li>
+				<li><a  href="{% url 'Barisal' %}">Barisal</a></li>
+				<li><a  href="{% url 'Sylhet' %}">Sylhet</a></li>
+            </ul>
+<div class="vdo">
+	<iframe class="web" src="http://www.tourtobangladesh.com/all-tourist-spots.php" frameborder="0"></iframe>
+	<iframe class="vid"  src="https://www.youtube.com/embed/QNUSIOMb6vI" frameborder="0" allowfullscreen></iframe>
+	<form action=""></form>
+	</div>
+
+	</div>
+	
+</body>
+</html>

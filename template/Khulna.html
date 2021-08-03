@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Details | about city</title>
+	{%load staticfiles%}
+	
+	<link rel="stylesheet" href="{% static 'travl.css'%}" />
+	<link rel="stylesheet" href="{% static 'dynamic1.css'%}" />
+	
+	
+	<style type="text/css">
+	
+	
+		input:hover
+		{
+			color:yellow;
+			font-size:25px;
+			cursor:pointer;
+			border:3px solid black;
+			
+		}
+			input
+		{
+		font-size:25px;
+		}
+	
+	</style>
+	
+</head>
+<body>
+<div class="bim">
+<div class="fixed">
+   <img class="logo-img" src="{% static 'img/visitbanla.png'%}" alt="Logo">     
+          <div class="navbar">
+  <a href="{% url 'travel'%}">Home</a>
+  <a href="#news">Contact</a>
+  <a href="About">About</a>
+  </div>  
+  </div> 
+  <div class="bdy">
+  <div class="hed">
+    <h1>KHULNA</h1>
+  </div>
+  <div class="content">
+<div class="name">
+
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+						<input type="submit" name="name" style="background:none;border:none;" value="Kuakata Sea Beach" />
+		
+	  </form>
+
+         <form action="/showitem/" method="post">
+		{%csrf_token%}
+						<input type="submit" name="name" style="background:none;border:none;" value="Sundarban " />
+		
+	  </form>
+
+  </div>
+  </div>
+  </div>
+  
+  
+  <div class="footer">
+	
+  
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,429 @@
+*{
+	padding:0;
+	margin:0;
+}
+.bim{
+	background:url("img/4500761-summer-beach-wallpapers.jpg")no-repeat;
+	background-attachment:fixed;
+	height:100vh;
+}
+
+.logo-img{
+	height:110px;
+	width:25%;
+	float:left;
+	background-color:rgba(7, 8, 23, 0.7);
+}
+.navbar {
+    overflow: hidden;
+    font-family: Arial;
+	padding:18px 30px;
+	background-color:rgba(7, 8, 23, 0.7);
+}
+
+.navbar a {
+    font-size: 16px;
+    color: red;
+    text-align: center;
+	padding:18px 70px;
+    text-decoration: none;
+}
+.navbar a:hover{
+	background-color:lightgreen;
+}
+.navbar1 {
+    overflow: hidden;
+    font-family: Arial;
+	background-color:rgba(0, 0, 0, 0.7);
+	padding:5px 10px;
+}
+.dropdown1 {
+    float: left;
+    overflow: hidden;
+}
+.dropdown1:hover {
+background-color: gray;
+}
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content1 a {
+    float: none;
+    color: black;
+	padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content1 a:hover {
+    background-color: lightgreen;
+}
+.dropdown1:hover .dropdown-content1{
+    display: block;
+}
+.dropdown1 .dropbtn1 {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: orange;
+    padding: 14px 14px;
+	background-color:inherit;
+}
+.navbar1 a:hover, .dropdown1:hover .dropbtn1 {
+    background-color: gray;
+}
+.dropdown2 {
+    float: left;
+    overflow: hidden;
+}
+.dropdown2:hover {
+background-color: gray;
+}
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content2 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content2 a:hover {
+    background-color: lightgreen;
+}
+.dropdown2:hover .dropdown-content2{
+    display: block;
+}
+.dropdown2 .dropbtn2 {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: orange;
+    padding: 14px 14px;
+	background-color:inherit;
+}
+.navbar1 a:hover, .dropdown2:hover .dropbtn2 {
+    background-color: gray;
+}
+.dropdown3 {
+    float: left;
+    overflow: hidden;
+}
+.dropdown3:hover {
+background-color: gray;
+}
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content3 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content3 a:hover {
+    background-color: lightgreen;
+}
+.dropdown3:hover .dropdown-content3{
+    display: block;
+}
+.dropdown3 .dropbtn3 {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: orange;
+    padding: 14px 14px;
+	background-color:inherit;
+}
+.navbar1 a:hover, .dropdown3:hover .dropbtn3 {
+    background-color: gray;
+}
+.dropdown4 {
+    float: left;
+    overflow: hidden;
+}
+.dropdown4:hover {
+background-color: gray;
+}
+.dropdown-content4 {
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content4 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content4 a:hover {
+    background-color: lightgreen;
+}
+.dropdown4:hover .dropdown-content4{
+    display: block;
+}
+.dropdown4 .dropbtn4 {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: orange;
+    padding: 14px 14px;
+	background-color:inherit;
+}
+.navbar1 a:hover, .dropdown4:hover .dropbtn4 {
+    background-color: gray;
+}
+.dropdown5 {
+    float: left;
+    overflow: hidden;
+}
+.dropdown5:hover {
+background-color: gray;
+}
+.dropdown-content5{
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content5 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content5 a:hover {
+    background-color: lightgreen;
+}
+.dropdown5:hover .dropdown-content5{
+    display: block;
+}
+.dropdown5 .dropbtn5 {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: orange;
+    padding: 14px 14px;
+	background-color:inherit;
+}
+.navbar1 a:hover, .dropdown5:hover .dropbtn5 {
+    background-color: gray;
+}
+.dropdown6 {
+    float: left;
+    overflow: hidden;
+}
+.dropdown6:hover {
+background-color: gray;
+}
+.dropdown-content6 {
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content6 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content6 a:hover {
+    background-color: lightgreen;
+}
+.dropdown6:hover .dropdown-content6{
+    display: block;
+}
+.dropdown6 .dropbtn6 {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: orange;
+    padding: 14px 14px;
+	background-color:inherit;
+}
+.navbar1 a:hover, .dropdown6:hover .dropbtn6 {
+    background-color: gray;
+}
+.dropdown7 {
+    float: left;
+    overflow: hidden;
+}
+.dropdown7:hover {
+background-color: gray;
+}
+.dropdown-content7 {
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content7 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content7 a:hover {
+    background-color: lightgreen;
+}
+.dropdown7:hover .dropdown-content7{
+    display: block;
+}
+.dropdown7 .dropbtn7{
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: orange;
+    padding: 14px 14px;
+	background-color:inherit;
+}
+.navbar1 a:hover, .dropdown7:hover .dropbtn7 {
+    background-color: gray;
+}
+.dropdown8 {
+    float: left;
+    overflow: hidden;
+}
+.dropdown8:hover {
+background-color: gray;
+}
+.dropdown-content8 {
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content8 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content8 a:hover {
+    background-color: lightgreen;
+}
+.dropdown8:hover .dropdown-content8{
+    display: block;
+}
+.dropdown8 .dropbtn8 {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: orange;
+    padding: 14px 14px;
+	background-color:inherit;
+}
+.navbar1 a:hover, .dropdown8:hover .dropbtn8 {
+    background-color: gray;
+}
+.welcome
+{   
+    width:40%;
+	margin:0 auto;
+	color:green;
+	margin-top:150px;
+}
+.p1{
+	font-size:50px;
+}
+.inp
+{ width:60%;
+  height:40px;
+  border:none;
+  background-color:rgba(128, 128, 128, 0.4);
+}
+.submit
+{width:20%;
+height:40px;
+border:none;
+background-color:orange;
+}
+.src
+{
+	width:50%;
+	margin:0 auto;
+	margin-top:20px;
+}
+.pso{
+background:lightgreen no-repeat;
+	background-attachment:fixed;
+	height:100vh;
+}	
+.dvi{
+	list-style-type:none;
+	margin-top:50px;
+	float:left;
+}
+.dvi li{
+
+	padding-top:20px;
+	padding-bottom:20px;
+    height:20px;
+	width:80%;
+	margin:20px;
+}
+.dvi li a
+{
+padding:15px 120px;
+background:black;
+color:orange;
+font-size:25px;
+text-decoration:none;
+margin-bottom:20px;
+display:block;
+margin-right:10px;
+}
+
+.web{
+	width:30%;
+	height:590px;
+	margin-top:50px;
+	
+}
+.vid{
+	width:33%;
+	height:520px;
+	margin-left:40px;
+	margin-bottom:30px;
+}
